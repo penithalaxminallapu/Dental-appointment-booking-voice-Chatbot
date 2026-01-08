@@ -15,8 +15,8 @@ import subprocess
 
 class AI_Assistant:
     def __init__(self):
-        self.gemini_api_key = "AIzaSyCRG_Qt4kdUhYHKDST7dfdv7Chj_cqW3nU"  # <-- Replace with your Gemini API key
-        self.elevenlabs_api_key = "sk_92cee6ff667f6c1e653a39415c1917a1420dea684c01ebc7"
+        self.gemini_api_key = "gemini_apikey"  # <-- Replace with your Gemini API key
+        self.elevenlabs_api_key = "elevenlabs_apikey"
         self.full_transcript = [
             {"role": "system", "content": "You are a receptionist at a dental clinic. Be resourceful and efficient."},
         ]
